@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int bates;
+    int i;
+    int j;
+
+    cout<<"Batasnya ? ";
+    cin>>bates;
+
+    i=bates;
+
+    while(i>=1)
+    {
+        j=i;
+        while(j>=1)
+        {
+            cout<<j;
+            j--;
+        }
+        cout<<endl;
+        i--;
+    }
+    return 0;
+}
